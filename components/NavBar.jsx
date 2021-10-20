@@ -7,7 +7,7 @@ const NavBar = () => {
             <li className='navItems'>About</li>
             <li className='navItems'>FAQ</li>
             <li>
-               <button className='hover:scale-105 transition-all hover:shadow-lg duration-300 transform text-white uppercase bg-black tracking-wide px-6 py-2.5 text-sm rounded'>
+               <button className='btn'>
                   Find Your Home
                </button>
             </li>

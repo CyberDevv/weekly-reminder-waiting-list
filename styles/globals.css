@@ -4,6 +4,10 @@
    @apply cursor-pointer hover:bg-black hover:text-white px-4 py-2 rounded transition-colors duration-300;
 }
 
+.btn {
+   @apply hover:scale-105 transition-all hover:shadow-lg duration-300 transform text-white uppercase bg-black tracking-wide px-6 py-2.5 text-sm rounded;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -12,8 +16,12 @@
    background: linear-gradient(
       90deg,
       rgba(236, 195, 182, 1) 0%,
-      rgba(255, 180, 156, 1) 50%,
+      rgba(236, 195, 182, 1) 50%,
       rgba(255, 255, 255, 0) 50%,
       rgba(255, 255, 255, 0) 100%
    );
+}
+
+.h-afterNav {
+   height: calc(100vh - 67px);
 }
