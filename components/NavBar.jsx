@@ -1,8 +1,8 @@
 const NavBar = () => {
    return (
-      <nav className='container flex items-center justify-between mx-auto my-6'>
-         <h1 className='text-2xl font-bold tracking-wide'>Squid Game</h1>
-         <ul className='flex items-center justify-around space-x-6 text-lg'>
+      <nav className='container flex items-center justify-between mx-auto'>
+         <h1 className='text-2xl font-bold tracking-wide w-1/2'>Squid Game</h1>
+         <ul className='flex items-center justify-around space-x-4 text-lg w-1/2'>
             <li className='navItems'>Promotions</li>
             <li className='navItems'>About</li>
             <li className='navItems'>FAQ</li>

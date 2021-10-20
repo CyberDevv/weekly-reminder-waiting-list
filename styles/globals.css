@@ -1,8 +1,19 @@
 @tailwind base;
 
 .navItems {
-  @apply cursor-pointer hover:bg-black hover:text-white px-4 py-2 rounded transition-colors duration-300;
+   @apply cursor-pointer hover:bg-black hover:text-white px-4 py-2 rounded transition-colors duration-300;
 }
 
 @tailwind components;
 @tailwind utilities;
+
+.gradientBackground {
+   background: rgb(236, 195, 182);
+   background: linear-gradient(
+      90deg,
+      rgba(236, 195, 182, 1) 0%,
+      rgba(255, 180, 156, 1) 50%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 100%
+   );
+}
