@@ -3,7 +3,7 @@ import WaitingForm from '../components/WaitingForm';
 
 const index = () => {
    return (
-      <div className= "grid grid-cols-2 items-center justify-items-center h-afterNav pt-10 container mx-auto">
+      <div className='container grid items-center px-4 pt-6 mx-auto lg:pt-10 lg:grid-cols-2 justify-items-center h-afterNav'>
          <IndexRightSide />
          <WaitingForm />
       </div>

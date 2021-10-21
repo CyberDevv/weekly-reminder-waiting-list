@@ -3,7 +3,7 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
    return (
-      <div className='gradientBackground pt-6 min-h-screen'>
+      <div className='min-h-screen pt-6 lg:gradientBackground bg-gray-50'>
          <NavBar />
          <Component {...pageProps} />
       </div>
