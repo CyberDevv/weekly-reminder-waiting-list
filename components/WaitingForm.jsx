@@ -1,17 +1,17 @@
 const WaitingForm = () => {
    return (
-      <div className='w-full mt-8 lg:pl-12 lg:mt-0'>
-         <h4 className='mb-2 text-base font-bold  lg:text-xl lg:mb-4'>
+      <div className='w-full mt-8 lg:pl-6 xl:pl-8 2xl:pl-12 lg:mt-0'>
+         <h4 className='mb-2 text-base font-bold lg:text-xl lg:mb-4'>
             There is nothing to loose.
          </h4>
-         <form className='flex flex-col max-w-md items-center justify-center'>
+         <form className='flex flex-col items-center justify-center max-w-md lg:max-w-full'>
             <div className='w-full space-y-4 lg:grid lg:grid-cols-2 lg:gap-6 lg:space-y-0'>
                <label htmlFor='lastName' className='grid'>
                   Last Name*
                   <input
                      type='text'
                      name='lastName'
-                     className='px-4 py-2 bg-transparent lg:w-full mt-2 text-gray-900 border-2 border-black rounded'
+                     className='px-4 py-2 mt-2 text-gray-900 bg-transparent border-2 border-black rounded lg:w-full'
                      placeholder='Last Name'
                      required
                   />
@@ -22,7 +22,7 @@ const WaitingForm = () => {
                   <input
                      type='text'
                      name='firstname'
-                     className='px-4 py-2 bg-transparent lg:w-full mt-2 text-gray-900 border-2 border-black rounded'
+                     className='px-4 py-2 mt-2 text-gray-900 bg-transparent border-2 border-black rounded lg:w-full'
                      placeholder='First Name'
                      required
                   />
@@ -33,7 +33,7 @@ const WaitingForm = () => {
                   <input
                      type='email'
                      name='email'
-                     className='px-4 py-2 bg-transparent lg:w-full mt-2 text-gray-900 border-2 border-black rounded'
+                     className='px-4 py-2 mt-2 text-gray-900 bg-transparent border-2 border-black rounded lg:w-full'
                      placeholder='Email Address'
                      required
                   />
@@ -44,7 +44,7 @@ const WaitingForm = () => {
                   <input
                      type='text'
                      name='country'
-                     className='px-4 py-2 bg-transparent lg:w-full mt-2 text-gray-900 border-2 border-black rounded'
+                     className='px-4 py-2 mt-2 text-gray-900 bg-transparent border-2 border-black rounded lg:w-full'
                      placeholder='Country'
                      required
                   />
@@ -55,7 +55,7 @@ const WaitingForm = () => {
                   <input
                      type='text'
                      name='city'
-                     className='px-4 py-2 bg-transparent lg:w-full mt-2 text-gray-900 border-2 border-black rounded'
+                     className='px-4 py-2 mt-2 text-gray-900 bg-transparent border-2 border-black rounded lg:w-full'
                      placeholder='City'
                      required
                   />
@@ -66,18 +66,18 @@ const WaitingForm = () => {
                   <input
                      type='text'
                      name='tel'
-                     className='px-4 py-2 bg-transparent lg:w-full mt-2 text-gray-900 border-2 border-black rounded'
+                     className='px-4 py-2 mt-2 text-gray-900 bg-transparent border-2 border-black rounded lg:w-full'
                      placeholder='Phone Number'
                   />
                </label>
                <label
-                  className='items-center text-xs text-gray-700 lg:col-span-2 lg:text-sm lg:flex'
+                  className='text-xs text-gray-700 lg:items-center lg:col-span-2 lg:text-sm lg:flex'
                   htmlFor='confirmation'
                >
                   <input
                      type='checkbox'
                      name='confirmation'
-                     className='mt-4 mr-1'
+                     className='mt-4 lg:mt-0 mr-1.5'
                   />
                   Yes, I will like to receive news, updates and messages from
                   Squid Game

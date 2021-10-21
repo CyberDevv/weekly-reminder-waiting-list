@@ -1,25 +1,27 @@
 @tailwind base;
 
 .navItems {
-   @apply cursor-pointer hover:bg-black hover:text-white px-4 py-2 rounded transition-colors duration-300;
+   @apply px-4 py-2 transition-colors duration-300 rounded cursor-pointer hover:bg-black hover:text-white;
 }
 
 .btn {
-   @apply hover:scale-105 transition-all hover:shadow-lg duration-300 transform text-white uppercase bg-black tracking-wide px-6 py-2.5 text-sm rounded;
+   @apply hover:scale-105 lg:px-5 transition-all hover:shadow-lg duration-300 transform text-white uppercase bg-black tracking-wide xl:px-6 py-2.5 text-sm rounded;
 }
 
 @tailwind components;
 @tailwind utilities;
 
-.gradientBackground {
-   background: rgb(236, 195, 182);
-   background: linear-gradient(
-      90deg,
-      rgba(236, 195, 182, 1) 0%,
-      rgba(236, 195, 182, 1) 50%,
-      rgba(255, 255, 255, 0) 50%,
-      rgba(255, 255, 255, 0) 100%
-   );
+@media screen and (min-width: 1024px) {
+   .gradientBackground {
+      background: rgb(236, 195, 182);
+      background: linear-gradient(
+         90deg,
+         rgba(236, 195, 182, 1) 0%,
+         rgba(236, 195, 182, 1) 50%,
+         rgba(255, 255, 255, 0) 50%,
+         rgba(255, 255, 255, 0) 100%
+      );
+   }
 }
 
 .h-afterNav {
